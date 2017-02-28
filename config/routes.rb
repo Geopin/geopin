@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'map/index'
+
   # Pins
 
   get 'pins/drop'
