@@ -24,6 +24,10 @@ class UsersController < ApplicationController
 
       #handle successful save
 
+
+      flash[:success] = "Welcome to Geopin!"
+      redirect_to @user
+
     else
       render 'new'
     end
