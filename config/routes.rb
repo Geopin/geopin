@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  
+  get 'map/index'
+
   # Root directory
   root 'login#index'
 
