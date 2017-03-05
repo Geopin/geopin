@@ -1,34 +1,52 @@
 <% provide(:title, 'Sign up') %>
 <h1>Sign up</h1>
 
-<div>
-  <%= form_for(@user, url: signup_path) do |f| %>
+<div class="container">
+  <div class="col-12">
+    <%= form_for(@user) do |f| %>
       <%= render 'shared/error_messages' %>
 
-      <%= f.label :first_name %>
-      <%= f.text_field :first_name %>
+      <div class="form-group">
+        <%= f.label :first_name %>
+        <%= f.text_field :first_name %>
+      </div>
 
-      <%= f.label :last_name %>
-      <%= f.text_field :last_name %>
+      <div class="form-group">
+        <%= f.label :last_name %>
+        <%= f.text_field :last_name %>
+      </div>
 
-      <%= f.label :username %>
-      <%= f.text_field :username %>
+      <div class="form-group">
+        <%= f.label :username %>
+        <%= f.text_field :username %>
+      </div>
 
-      <%= f.label :email %>
-      <%= f.email_field :email %>
+      <div class="form-group">
+        <%= f.label :email %>
+        <%= f.email_field :email %>
+      </div>
 
-      <%= f.label :password %>
-      <%= f.password_field :password %>
+      <div class="form-group">
+        <%= f.label :password %>
+        <%= f.password_field :password %>
+      </div>
 
-      <%= f.label :password_confirmation, "Confirmation" %>
-      <%= f.password_field :password_confirmation %>
+      <div class="form-group">
+        <%= f.label :password_confirmation, "Confirmation" %>
+        <%= f.password_field :password_confirmation %>
+      </div>
 
-      <%= f.label :height %>
-      <%= f.text_field :height %>
+      <div class="form-group">
+        <%= f.label :height %>
+        <%= f.text_field :height %>
+      </div>
 
-      <%= f.label :weight %>
-      <%= f.text_field :weight %>
+      <div class="form-group">
+        <%= f.label :weight %>
+        <%= f.text_field :weight %>
+      </div>
 
-      <%= f.submit "Create my account" %>
-  <% end %>
+      <%= f.submit :class=> 'btn btn-default' %>
+    <% end %>
+  </div>
 </div>
