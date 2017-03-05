@@ -129,6 +129,9 @@ label {
   height: 30px;
   padding: 10px;
   display: flex;
+  box-sizing: border-box;
+  max-width: 100vw;
+  flex-direction: row;
 }
 
 .logo {
