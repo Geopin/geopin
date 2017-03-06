@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  
+
   get 'map/index'
 
   # Root directory
@@ -22,7 +22,7 @@ Rails.application.routes.draw do
   get 'pins/vote'
 
   get 'pins/add_season'
-  
+
   # Users
   resources :users
 
