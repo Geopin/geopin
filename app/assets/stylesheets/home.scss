@@ -1,0 +1,21 @@
+@import "layout";
+
+.layout-hero {
+  background: rgba($light-blue, .4);
+}
+
+  .layout-hero__container {
+    padding: 10vh 0;
+    text-align: center;
+    color: white;
+
+    h2 {
+      font-size: 1.3em;
+    }
+  }
+
+  .layout-hero__logo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
