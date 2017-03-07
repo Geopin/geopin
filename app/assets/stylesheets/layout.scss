@@ -5,9 +5,13 @@
  $dark-grey: #2D2D2D;
  $mid-grey: #545454;
  $light-grey: #f5f3f3;
+
  $dark-orange: #A43A3A;
  $mid-orange: #F26969;
  $light-orange: #F3A1A1;
+
+ $light-blue: #3888A0;
+ $blue: #407787;
 
 /*==============================================================================
   Layout Limits
@@ -127,6 +131,14 @@ a {
   padding: 10px;
   font-size: 14px;
   border-radius: 3px;
+  border: none;
+  color: white;
+}
+
+.btn-primary {
+  background: $blue;
+  padding: 15px;
+  font-size: 16px;
 }
 
 .btn-default {
@@ -147,9 +159,8 @@ a {
   left: 0;
   align-items: center;
   box-sizing: border-box;
-  border-bottom: 1px solid #ebeef0;
   min-height: 56px;
-  background: $dark-grey;
+  background: rgba($dark-grey, .98);
   height: 30px;
   display: flex;
   max-width: 100vw;
