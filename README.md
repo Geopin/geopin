@@ -9,7 +9,7 @@
 </div>
 
 
-Geopin is a web app which makes it possible to identify, record, and share natural features of interest on a map via mobile phone.
+Geopin is a web app which makes it possible to identify, record, and share natural features of interest on a map via desktop or mobile phone.
 
 ## Summary
 The app is being created for outdoor enthusiasts who wish to return to remote natural features or areas of interests in the future. 
